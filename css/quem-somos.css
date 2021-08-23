@@ -1,0 +1,20 @@
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    border: 0;
+    border-radius: 20px;
+    padding: 5% 0;
+}
+.foto {
+    display: flex;
+    justify-content:center;
+    min-width: 50%;
+}
+.content {
+    min-width:50%;
+}
+.sobre-nos-img {
+    border-radius: 5%;
+    max-width: 500px;
+}

@@ -1,0 +1,98 @@
+:root {
+    --bege-primary: rgba(249, 240, 199, .6);
+    --marrom-primary:#92441a;
+    --marrom-secondary:#3b271c;
+    --azul-primary: #15aaa6;
+}
+
+html {
+    height:100%;
+    min-height: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-size: 3.1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: var(--azul-primary)!important;
+    font-family: 'Roboto', sans-serif;
+    color: var(--marrom-primary);
+}
+
+.card {
+    background: var(--bege-primary);
+    border-radius:20px;
+}
+.navbar {
+    background: var(--marrom-secondary) !important;
+}
+
+.navbar-content {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.nav-item a {
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: var(--marrom-primary) !important;
+    border-color: var(--marrom-primary) !important;
+    color: white !important;
+    transition: all .2s;
+}
+
+.btn-primary:hover {
+    opacity: .8;
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.social-media {
+    display: flex;
+    justify-content:space-around;
+    font-size: 35px;
+}
+
+.social-media a {
+    color: var(--marrom-primary);
+}
+
+.footer {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    padding: auto;
+    height: 150px;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    backdrop-filter: grayscale(50%);
+    -webkit-backdrop-filter: opacity(50%);
+    height: 100%;
+    width: 100%;
+    padding: 0 5%;
+}

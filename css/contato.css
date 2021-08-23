@@ -1,0 +1,12 @@
+.row {
+    width:80%;
+    margin:auto;
+}
+.contato {
+    display: flex;
+    justify-content:center;
+}
+
+.form-group {
+    margin: 2% 0;
+}
